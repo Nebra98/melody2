@@ -29,6 +29,6 @@ Auth::routes();
 
 Route::middleware('auth', 'admin')->get('/home', 'HomeController@index');
 
-Route::get('/rezervacije', function () {
-    return view('rezervacije');
+Route::get('/userpanel', function () {
+    return view('userPanel');
 });

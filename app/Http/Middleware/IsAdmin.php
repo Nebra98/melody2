@@ -20,7 +20,7 @@ class IsAdmin
             return $next($request);
          }
 
-        return redirect('rezervacije');
+        return redirect('userpanel');
     }
 
 }
